@@ -1,0 +1,12 @@
+#index-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+}
+.title {
+  font-size: 30px;
+  color: blue;
+}
+#index-description {
+  color: #999;
+}
