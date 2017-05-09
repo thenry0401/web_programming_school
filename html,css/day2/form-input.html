@@ -18,5 +18,53 @@
     <input type="reset"><br>
     <input type="hidden" name="hidden" value="hiddenValue">
   </form>
+  <h3>radio</h3>
+  <form action="">
+    <input type="radio" name="radio-name" value="a">
+    <input type="radio" name="radio-name" value="b">
+    <input type="submit" value="전송">
+  </form>
+
+  <h3>Label</h3>
+  <form action="">
+    <div>
+      <label>ID <input type="text"></label>
+    </div>
+    <div>
+      <label>Username</label>
+      <input type="text" id="username">
+    </div>
+  </form>
+
+  <h3>select</h3>
+  <select name="number" id="">
+    <option value="1">First</option>
+    <option value="2">Second</option>
+    <option value="3">Third</option>
+    <option value="4">Fourth</option>
+  </select>
+
+  <h3>option group</h3>
+  <select name="" id="">
+    <optgroup label="Fruits">
+      <option value="apple">Apple</option>
+      <option value="banana">Banana</option>
+      <option value="orange">Orange</option>
+    </optgroup>
+    <optgroup label="Colors">
+      <option value="red">Red</option>
+      <option value="blue">Blue</option>
+      <option value="green">Green</option>
+    </optgroup>
+  </select>
+
+  <h3>fieldset</h3>
+  <form action="">
+    <fieldset>
+      <legend>Login</legend>
+      <label>username : <input type="text"></label>
+      <label>password : <input type="password"></label>
+    </fieldset>
+  </form>
 </body>
 </html>
