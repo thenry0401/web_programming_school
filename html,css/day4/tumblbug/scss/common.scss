@@ -1,0 +1,22 @@
+@import "variables";
+
+.btn {
+  box-sizing: border-box;
+  border: 2px solid $color-text-common;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px 17px;
+}
+.btn-theme {
+  border-color: $color-theme;
+  color: $color-theme;
+
+  &:hover {
+    color: white;
+    background-color: $color-theme;
+    border-bottom: 1px solid $color-theme;
+  }
+}
